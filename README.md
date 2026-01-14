@@ -4,7 +4,7 @@
 
 ---
 
- <img width="969" height="768" alt="image" src="https://github.com/user-attachments/assets/3cef22f3-759a-494e-92b0-078d4df04c95" />
+ <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3cef22f3-759a-494e-92b0-078d4df04c95" />
 
 ##  Tabla de contenidos
 
@@ -52,3 +52,4 @@ http://localhost:3080
 
 
 ```
+
