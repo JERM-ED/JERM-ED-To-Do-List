@@ -1,5 +1,4 @@
 function CreateTask(id, titulo, descripcion, estado = 'pendiente') {
-  const fechaCreacion = new Date().toISOString();
   
   return {
     id: id,
@@ -8,5 +7,6 @@ function CreateTask(id, titulo, descripcion, estado = 'pendiente') {
     estado: estado, // 'pendiente' o 'completada'
   };
 }
+
 
 module.exports = CreateTask;
