@@ -27,7 +27,7 @@
 1. Clonar este repositorio:
 
 ```
-https://github.com/JERM-ED/JERM-ED-To-Do-List.git'
+https://github.com/JERM-ED/JERM-ED-To-Do-List.git
 
 ```
 
@@ -46,10 +46,10 @@ Inicia el servidor con:
 node app.js
 
  ```
- ```
+ 
  El servidor correrá en:
-http://localhost:3080
+  http://localhost:3080
 
 
-```
+
 
