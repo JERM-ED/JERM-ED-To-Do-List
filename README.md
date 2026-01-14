@@ -27,13 +27,14 @@
 1. Clonar este repositorio:
 
 ```
-https://github.com/JERM-ED/JERM-ED-To-Do-List.git
+git clone https://github.com/JERM-ED/JERM-ED-To-Do-List.git
 
 ```
 
 # Entrar al proyecto:
 ```
-cd todo-list-node
+1. cd JERM-ED-To-Do-List
+2. cd backend
 ``` 
  Instalar dependencias:
  ```
@@ -49,6 +50,7 @@ node app.js
  
  El servidor correrá en:
   http://localhost:3080
+
 
 
 
