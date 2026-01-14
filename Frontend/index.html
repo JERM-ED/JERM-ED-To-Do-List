@@ -8,25 +8,25 @@
 </head>
 
 <body>
-    <!-- Contenedor principal -->
     <div class="container">
         <h1>TODO List</h1>
 
-        <!-- Formulario para agregar tareas -->
+        <!-- Formulario -->
         <div class="add-task">
-
             <label for="titulo">Título</label>
             <input type="text" id="titulo" placeholder="Título de la tarea">
 
             <label for="descripcion">Descripción</label>
-            <textarea id="descripcion" placeholder="Descripción de la tarea" rows="3"></textarea>
+            <textarea id="descripcion" rows="3" placeholder="Descripción de la tarea"></textarea>
 
-            <button onclick="crearTarea()">Agregar</button>
-            <br><br>
+            <button onclick="crearTarea()">Agregar tarea</button>
         </div>
 
-        <!-- Lista de tareas -->
-        <table width="100%">
+        <!-- Mensaje de estado -->
+        <p id="status-msg" class="status-msg"></p> 
+        
+        <!-- Tabla de tareas -->
+        <table>
             <thead>
                 <tr>
                     <th>ID</th>
@@ -36,11 +36,8 @@
                     <th>Acciones</th>
                 </tr>
             </thead>
-            <tbody id="lista">
-                <!-- Filas generadas con JS -->
-            </tbody>
+            <tbody id="lista"></tbody>
         </table>
-
     </div>
 
     <script src="./js/app.js"></script>

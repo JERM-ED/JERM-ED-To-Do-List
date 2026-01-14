@@ -5,7 +5,7 @@
 Esta aplicación permite crear, visualizar, actualizar y eliminar tareas de forma simple e intuitiva, ideal como proyecto introductorio para comprender el flujo completo **Backend + Frontend**.
 
 ---
-
+      
 ##  Tabla de contenidos
 
 * [Descripción general](#-descripción-general)
@@ -28,7 +28,7 @@ Esta aplicación permite crear, visualizar, actualizar y eliminar tareas de form
 * **Update**: Actualizar tareas
 * **Delete**: Eliminar tareas
 
-El objetivo principal del proyecto es reforzar conceptos fundamentales de **Node.js**, **Express** y el consumo de una **API REST** desde el frontend.
+
 
 ---
 

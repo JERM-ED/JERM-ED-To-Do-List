@@ -5,125 +5,143 @@
   box-sizing: border-box;
 }
 
-/* Estilos generales */
+/* Body */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f4f6f8;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Contenedor principal */
+/* Contenedor */
 .container {
   background-color: #ffffff;
   width: 100%;
-  max-width: 500px;
-  padding: 20px;
-  border-radius: 8px;
+  max-width: 700px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Título */
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #004B87;
 }
 
-/* Área para agregar tareas */
+/* Formulario */
 .add-task {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
 }
+
 .add-task label {
-    font-weight: bold;
+  font-weight: bold;
+  color: #333;
 }
 
 .add-task input,
 .add-task textarea {
-    padding: 8px;
-    font-size: 14px;
-}
-
-.add-task button {
-    margin-top: 10px;
-}
-
-#titulo {
-  flex: 1;
   padding: 10px;
+  font-size: 14px;
   border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-task input:focus,
+.add-task textarea:focus {
+  outline: none;
+  border-color: #004B87;
 }
 
 .add-task button {
-  padding: 10px;
-  border: none;
+  margin-top: 10px;
+  padding: 12px;
   background-color: #004B87;
   color: white;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-/* Contador de tareas */
-.task-counter {
-  text-align: center;
-  margin-bottom: 15px;
-  color: #555;
+.add-task button:hover {
+  background-color: #00345f;
 }
 
-/* Lista de tareas */
-ul {
-  list-style: none;
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
 }
 
-/* Tarea individual */
-li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+thead {
+  background-color: #004B87;
+  color: white;
+}
+
+th,
+td {
   padding: 10px;
-  margin-bottom: 8px;
-  background-color: #eee;
+  text-align: left;
 }
 
-/* Tarea completada */
-li.completada {
-  background-color: #d4edda;
+tbody tr {
+  border-bottom: 1px solid #ddd;
 }
 
-li.completada .task-text {
-  text-decoration: line-through;
-  color: #777;
+tbody tr:hover {
+  background-color: #f1f1f1;
 }
 
-/* Checkbox */
-.task-checkbox {
+/* Estado */
+.estado-pendiente {
+  color: #d35400;
+  font-weight: bold;
+}
+
+.estado-completado {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Botones acciones */
+.btn {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
+  font-size: 12px;
 }
 
-/* Texto de la tarea */
-.task-text {
-  flex: 1;
+.btn-completar {
+  background-color: #27ae60;
+  color: white;
 }
 
-/* Botón eliminar */
-.delete-btn {
+.btn-eliminar {
   background-color: #e74c3c;
   color: white;
-  border: none;
-  padding: 5px 8px;
-  cursor: pointer;
 }
 
-/* Mensaje sin tareas */
-.empty-message {
+
+/* Mensajes de estado */
+.status-msg {
   text-align: center;
-  color: #888;
-  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
   display: none;
 }
 
-.empty-message.show {
-  display: block;
+.status-success {
+  color: #27ae60;
+}
+
+.status-error {
+  color: #e74c3c;
 }
