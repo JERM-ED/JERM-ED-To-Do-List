@@ -87,7 +87,7 @@ git clone https://github.com/JERM-ED/JERM-ED-To-Do-List.git
 ```
 
 2. **Entrar al proyecto**
-
+   Abrir la terminal donde esta  el proyecto:
 ```bash
 cd JERM-ED-To-Do-List
 cd backend
@@ -139,3 +139,4 @@ frontend/index.html
 * Asegúrate de que el backend esté corriendo antes de usar el frontend.
 
 ---
+
