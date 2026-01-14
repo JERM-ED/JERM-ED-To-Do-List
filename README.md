@@ -7,6 +7,7 @@ Esta aplicación permite crear, visualizar, actualizar y eliminar tareas de form
 
 ---
 
+
 ##  Tabla de contenidos
 
 * [Descripción general](#-descripción-general)
@@ -83,60 +84,31 @@ JERM-ED-To-Do-List/
 
 1. **Clonar el repositorio**
 
-```bash
-git clone https://github.com/JERM-ED/JERM-ED-To-Do-List.git
+```
+https://github.com/JERM-ED/JERM-ED-To-Do-List.git'
+
 ```
 
-2. **Entrar al proyecto**
-
-```bash
-cd JERM-ED-To-Do-List
-cd backend
+# Entrar al proyecto:
 ```
+cd todo-list-node
+``` 
+ Instalar dependencias:
+ ```
+ npm install 
+ 
+ ```
 
-3. **Instalar dependencias**
-
-```bash
-npm install
-```
-
----
-
-## Ejecución
-
-1. **Iniciar el servidor backend**
-
-```bash
+Inicia el servidor con:
+ ```
 node app.js
 ```
 
 2. El servidor se ejecutará en:
 
-```
+ ```
+ ```
+ El servidor correrá en:
 http://localhost:3080
-```
-
----
-
-##  Uso del Frontend
-
-1. Abrir el archivo **index.html** ubicado en la carpeta **Frontend** directamente en el navegador:
 
 ```
-frontend/index.html
-```
-
-2. Desde la interfaz podrás:
-
-   * Agregar tareas
-   * Visualizar la lista
-   * Editar tareas existentes
-   * Eliminar tareas
-
----
-
-##  Notas
-
-* Asegúrate de que el backend esté corriendo antes de usar el frontend.
-
----
