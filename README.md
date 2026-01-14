@@ -1,5 +1,6 @@
 # To Do List
 
+
 > **Aplicación web de lista de tareas (CRUD)** desarrollada con **Node.js** y **Express**, con un frontend sencillo en **HTML, CSS y JavaScript**.
 
 Esta aplicación permite crear, visualizar, actualizar y eliminar tareas de forma simple e intuitiva, ideal como proyecto introductorio para comprender el flujo completo **Backend + Frontend**.
