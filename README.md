@@ -1,20 +1,52 @@
-# TODO List App
+#  To Do List
 
-Aplicación web básica de TODO List desarrollada con Node.js, Express y un frontend en HTML, CSS y JavaScript.
+> Una aplicación de lista de tareas (CRUD) desarrollada con **Node.js** y **Express**
 
-## Funcionalidades
-- Crear tareas
-- Listar tareas
-- Marcar tareas como completadas
-- Eliminar tareas
+---
 
-## Requisitos
-- Node.js v16+
-- Git
 
-## Instalación
+##  Tabla de contenidos
 
-1. Clonar el repositorio:
-```bash
-git clone https://github.com/tu-usuario/todo-list-app.git
-cd todo-list-app/backend
+[TOC]
+
+---
+
+##  Tecnologías usadas
+
+- Node.js
+- Express
+- Javascript
+- CORS
+- Html
+- Css
+
+---
+##  Instalación
+
+1. Clonar este repositorio:
+
+```
+https://github.com/JERM-ED/JERM-ED-To-Do-List.git'
+
+```
+
+# Entrar al proyecto:
+```
+cd todo-list-node
+``` 
+ Instalar dependencias:
+ ```
+ npm install 
+ 
+ ```
+
+Inicia el servidor con:
+ ```
+node app.js
+
+ ```
+ ```
+ El servidor correrá en:
+http://localhost:3080
+
+```
