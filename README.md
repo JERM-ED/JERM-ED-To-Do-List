@@ -1,12 +1,10 @@
 # To Do List
 
-
 > **Aplicación web de lista de tareas (CRUD)** desarrollada con **Node.js** y **Express**, con un frontend sencillo en **HTML, CSS y JavaScript**.
 
 Esta aplicación permite crear, visualizar, actualizar y eliminar tareas de forma simple e intuitiva, ideal como proyecto introductorio para comprender el flujo completo **Backend + Frontend**.
 
 ---
-
 
 ##  Tabla de contenidos
 
@@ -18,7 +16,6 @@ Esta aplicación permite crear, visualizar, actualizar y eliminar tareas de form
 * [Ejecución](#-ejecución)
 * [Uso del Frontend](#-uso-del-frontend)
 * [Notas](#-notas)
-
 
 ---
 
@@ -85,31 +82,60 @@ JERM-ED-To-Do-List/
 
 1. **Clonar el repositorio**
 
+```bash
+git clone https://github.com/JERM-ED/JERM-ED-To-Do-List.git
 ```
-https://github.com/JERM-ED/JERM-ED-To-Do-List.git'
 
+2. **Entrar al proyecto**
+
+```bash
+cd JERM-ED-To-Do-List
+cd backend
 ```
 
-# Entrar al proyecto:
-```
-cd todo-list-node
-``` 
- Instalar dependencias:
- ```
- npm install 
- 
- ```
+3. **Instalar dependencias**
 
-Inicia el servidor con:
- ```
+```bash
+npm install
+```
+
+---
+
+## Ejecución
+
+1. **Iniciar el servidor backend**
+
+```bash
 node app.js
 ```
 
 2. El servidor se ejecutará en:
 
- ```
- ```
- El servidor correrá en:
+```
 http://localhost:3080
+```
+
+---
+
+##  Uso del Frontend
+
+1. Abrir el archivo **index.html** ubicado en la carpeta **Frontend** directamente en el navegador:
 
 ```
+frontend/index.html
+```
+
+2. Desde la interfaz podrás:
+
+   * Agregar tareas
+   * Visualizar la lista
+   * Editar tareas existentes
+   * Eliminar tareas
+
+---
+
+##  Notas
+
+* Asegúrate de que el backend esté corriendo antes de usar el frontend.
+
+---
