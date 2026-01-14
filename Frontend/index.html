@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h1>TODO List</h1>
+
+        <!-- Formulario para agregar tareas -->
+        <div class="add-task">
+
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" placeholder="Título de la tarea">
+
+            <label for="descripcion">Descripción</label>
+            <textarea id="descripcion" placeholder="Descripción de la tarea" rows="3"></textarea>
+
+            <button onclick="crearTarea()">Agregar</button>
+            <br><br>
+        </div>
+
+        <!-- Lista de tareas -->
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Descripción</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="lista">
+                <!-- Filas generadas con JS -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

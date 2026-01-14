@@ -1,0 +1,129 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Área para agregar tareas */
+.add-task {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.add-task label {
+    font-weight: bold;
+}
+
+.add-task input,
+.add-task textarea {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.add-task button {
+    margin-top: 10px;
+}
+
+#titulo {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.add-task button {
+  padding: 10px;
+  border: none;
+  background-color: #004B87;
+  color: white;
+  cursor: pointer;
+}
+
+/* Contador de tareas */
+.task-counter {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Lista de tareas */
+ul {
+  list-style: none;
+}
+
+/* Tarea individual */
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #eee;
+}
+
+/* Tarea completada */
+li.completada {
+  background-color: #d4edda;
+}
+
+li.completada .task-text {
+  text-decoration: line-through;
+  color: #777;
+}
+
+/* Checkbox */
+.task-checkbox {
+  cursor: pointer;
+}
+
+/* Texto de la tarea */
+.task-text {
+  flex: 1;
+}
+
+/* Botón eliminar */
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+/* Mensaje sin tareas */
+.empty-message {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+  display: none;
+}
+
+.empty-message.show {
+  display: block;
+}
